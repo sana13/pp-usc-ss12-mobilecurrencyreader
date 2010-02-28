@@ -24,8 +24,14 @@ for visually impaired people.
 5. Deploy java program to Android<br/>
 <br/>
 
-====Acquire image from phone + write to buffer====
-This is the starting phase of the program.
+====Acquiring Image from Phone and Writing to Buffer====
+The first step in the application is to acquire image of the bill. For our prototype,
+the user interface is fairly straight-forward - allowing the user to take a snap shot of a 
+Dollar bank note. At first, we simply downloaded the code for a simple Camera Demo off
+the internet. We soon encountered the problem that we did not know what the simulator is
+taking a photo of, since the simulator does not use the web cam as the actual camera of an
+android phone. Once the user takes the picture, the Java application turns the image into
+a byte array.
 
 ====Output text to audio====
 Once the server determines the denomination of the bill, the next thing to do is to convert the result into audible files.<br/>
