@@ -48,11 +48,9 @@ Once the server determines the denomination of the bill, the next thing to do is
 ----
 ==Future Improvement==
 
-1. Multiple languages<br/>
-2. Male and female voices<br/>
-These features play key roles in helping to provide a more user-friendly application
-
-3. Currently, it is built primarily for Android users. In the future, it can be modified to adapt with different mobile platforms.
+#1 Currently, it is built primarily for Android users. In the future, it can be modified to adapt with different mobile platforms.
+#2 The application now only supports English and one voice. Support to multiple languages and various voices would be valuable to the growth of the project.
+#3 Apprarently, even though the application can detect the value of the dollar bills, it can't distinguish a genuine banknote and a fake banknote.
 
 ----
 ==Useful Links==
