@@ -39,6 +39,12 @@ Once the server determines the denomination of the bill, the next thing to do is
 
 ----
 
+==Possible Features==
+1. Multiple languages</br>
+2. Male and female voices</br>
+
+These features play key roles in helping to provide a more user-friendly application
+
 ==Future Improvement==
 
 1. Currently, it is built primarily for Android users. In the future, it can be modified to adapt with different mobile platforms.
