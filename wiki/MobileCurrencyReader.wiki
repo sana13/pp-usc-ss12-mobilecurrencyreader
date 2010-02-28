@@ -1,4 +1,3 @@
-
 =Mobile Currency Reader=
 <br/>
 
@@ -21,7 +20,7 @@ It is important to note that we designed the project with the assumption that th
 Since Android is one of the most popular mobile phones nowadays, our group decided to code the mobile currency reader project primarily for Android platform.
 
 Below is a simple description of the application’s major functions:
-  #1 The user captures an image of the holding bill using his mobile phone (Android in this case)
+  #1 The Android phone captures an image of a bank note and writes it to buffer.
   #2 The captured image is then sent to the server.
   #3 The image is processed for recognizing the value of the bill
   #4 The result of image recognition is used to select corresponding audio file.
