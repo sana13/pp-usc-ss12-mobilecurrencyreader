@@ -34,9 +34,7 @@ android phone. Once the user takes the picture, the Java application turns the i
 a byte array.
 
 ====Output text to audio====
-Once the server determines the denomination of the bill, the next thing to do is to convert the result into audible files.<br/>
-Currently, we create actual audio files for each denomination of bills. This means that once the server finishes recognizing<br/>
-the denomination, it will then select the corresponding audio file and play it to the user.
+Once the server determines the denomination of the bill, the next thing to do is to convert the result into audible files. Currently, we create actual audio files for each denomination of bills. This means that once the server finishes recognizing the denomination, it will then select the corresponding audio file and play it to the user.
 
 
 ----
