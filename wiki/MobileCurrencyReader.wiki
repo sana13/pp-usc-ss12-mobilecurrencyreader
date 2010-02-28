@@ -8,7 +8,7 @@
 
 This mobile currency reader project intends to make tasks such as recognizing the values of different dollar bills easier for visually impaired people. The application will first prompt users to capture an image of the holding bill, and the captured image will be transferred to the server. Then the server will process the image in order to recognize the value of the bill. Once the value of the bill is determined, the server will select the appropriate audio file to play to the users.
 <br/>
-
+It is important to note that we designed the project with the assumption that the user is aware that the bank note is a dollar bill, and has the ability to get hold of an Android phone whether through their own power or the help from others.
 ----
 
 ==Pre-requisites==
@@ -40,8 +40,8 @@ Once the server determines the denomination of the bill, the next thing to do is
 ----
 
 ==Possible Features==
-1. Multiple languages</br>
-2. Male and female voices</br>
+1. Multiple languages
+2. Male and female voices
 
 These features play key roles in helping to provide a more user-friendly application
 
