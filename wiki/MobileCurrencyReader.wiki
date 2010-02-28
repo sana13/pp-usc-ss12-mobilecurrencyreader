@@ -34,7 +34,7 @@ Below is a simple description of the application’s major functions:
 The first step in the application is to acquire image of the bill. For our prototype,
 the user interface is fairly straight-forward - allowing the user to take a snap shot of a 
 Dollar bank note. At first, we simply downloaded the code for a simple Camera Demo off
-the internet. We soon encountered the problem that we did not know what the simulator is
+the internet (see below). We soon encountered the problem that we did not know what the simulator is
 taking a photo of, since the simulator does not use the web cam as the actual camera of an
 android phone. Once the user takes the picture, the Java application turns the image into
 a byte array.
@@ -51,12 +51,13 @@ Once the server determines the denomination of the bill, the next thing to do is
 
   #1 Currently, it is built primarily for Android users. In the future, it can be modified to adapt with different mobile platforms.
   #2 The application now only supports English and one voice. Support to multiple languages and various voices would be valuable to the growth of the project.
-  #3 Apprarently, even though the application can detect the value of the dollar bills, it can't distinguish a genuine banknote and a fake banknote.
+  #3 Apprarently, even though the application can detect the value of the different dollar bills, it cannot distinguish between a genuine and a fake banknote.
 <br/>
 ----
 ==Useful Links==
 
 <a href="http://developer.android.com/reference/packages.html">Android API</a><br/>
+<a href="http://marakana.com/forums/android/android_examples/39.html">Camera Demo</a><br/>
 <a href="http://en.wikipedia.org/wiki/Scale-invariant_feature_transform">Scale-Invariant Feature Transform</a>
 
 <br/>
