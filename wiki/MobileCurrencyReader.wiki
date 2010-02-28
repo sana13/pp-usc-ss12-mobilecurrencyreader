@@ -2,7 +2,7 @@
 
 = Overview =
 
-Add your content here.
+This mobile currency reader project intends to make tasks such as recognizing the values of different dollar bills easier for the blind people.
 
 ----
 = Details =
