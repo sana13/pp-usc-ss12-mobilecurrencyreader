@@ -11,6 +11,10 @@ for visually impaired people.
 
 ----
 
+==Pre-requisites==
+1. Android SDK starter package
+2. Android Plugin for Eclipse - Android emulator for testing the code.
+
 ==Technical Overview==
 
 1. Acquire image from phone + write to buffer<br/>
@@ -19,6 +23,9 @@ for visually impaired people.
 4. Output text to audio<br/>
 5. Deploy java program to Android<br/>
 <br/>
+
+====Acquire image from phone + write to buffer====
+This is the starting phase of the program.
 
 ====Output text to audio====
 Once the server determines the denomination of the bill, the next thing to do is to convert the result into audible files.<br/>
