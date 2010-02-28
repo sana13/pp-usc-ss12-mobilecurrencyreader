@@ -15,6 +15,7 @@ It is important to note that we designed the project with the assumption that th
   #1 Android SDK starter package<br/>
   #2 Android Plugin for Eclipse - Android emulator for testing the code.
 <br />
+*See useful links for intros on how to install these.
 ----
 ==Technical Overview==
 Since Android is one of the most popular mobile phones nowadays, our group decided to code the mobile currency reader project primarily for Android platform.
