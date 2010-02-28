@@ -40,7 +40,7 @@ android phone. Once the user takes the picture, the Java application turns the i
 a byte array.
 
 ====Recognizing the Denomination====
-The server matches the features of submitted images against a library of stored features of different denomination and create a score for each comparison. It will then return the comparison with the highest score. The comparison is done using the scale-invariant feature transform algorithm (SIFT). This includes object recognition, robotic mapping and navigation, image stitching, 3D modeling, gesture recognition, video tracking, and match moving. Note that this takes care of possible problems such as viewing the banknote from an angle, or viewing a crumpled bill.
+The server matches the features of submitted images against a library of stored features of different denomination and create a score for each comparison. It will then return the comparison with the highest score. The comparison is done using the scale-invariant feature transform algorithm (SIFT). We used only object recognition and robotic mapping and navigation from SIFT in this project. These basically make all the images we take in have the same orientation, scale and rotation. Note that this takes care of possible problems such as viewing the banknote from an angle, or viewing a crumpled bill.
 
 ====Outputting Text to Audio Files====
 Once the server determines the denomination of the bill, the next thing to do is to convert the result into audible files. Currently, we create actual audio files for each denomination of bills. This means that once the server finishes recognizing the denomination, it will then select the corresponding audio file and play it to the user.
