@@ -9,9 +9,10 @@ This mobile currency reader project intends to make tasks such as recognizing th
 
 ----
 
-==Details==
+==Technical Overview==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+1. Acquire image from Android + write to buffer
+2. Phone client process + server process
+3. Output text to audio
+4. Classification of image data + rescale image
+5. Deploy java program to Android
