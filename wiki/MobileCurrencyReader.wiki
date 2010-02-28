@@ -37,7 +37,10 @@ taking a photo of, since the simulator does not use the web cam as the actual ca
 android phone. Once the user takes the picture, the Java application turns the image into
 a byte array.
 
-====Output text to audio====
+====Recognizing the denomination====
+The server matches the features of submitted images against a library of stored features of different denomination and create a score for each comparison. It will then return the comparison with the highest score.
+
+====Outputting Text to Audio Files====
 Once the server determines the denomination of the bill, the next thing to do is to convert the result into audible files. Currently, we create actual audio files for each denomination of bills. This means that once the server finishes recognizing the denomination, it will then select the corresponding audio file and play it to the user.
 
 
@@ -51,7 +54,7 @@ These features play key roles in helping to provide a more user-friendly applica
 3. Currently, it is built primarily for Android users. In the future, it can be modified to adapt with different mobile platforms.
 
 ----
-
+matching a feature of submitted images against a library of contained features of different denomination and create a score for each comparison. returns the output with the highest score.
 ==Useful Links==
 
 <a href="http://developer.android.com/reference/packages.html">Android API</a>
