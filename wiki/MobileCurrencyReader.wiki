@@ -26,6 +26,7 @@ Below is a simple description of the application’s major functions:
   #4 The result of image recognition is used to select corresponding audio file.
   #5 The chosen audio file is sent back to the phone and played to the user.
 
+<img>http://i204.photobucket.com/albums/bb76/tina_chen/diagram-1.png</img>
 
 
 ====Acquiring Image from Phone and Writing to Buffer====
@@ -37,7 +38,7 @@ taking a photo of, since the simulator does not use the web cam as the actual ca
 android phone. Once the user takes the picture, the Java application turns the image into
 a byte array.
 
-====Recognizing the denomination====
+====Recognizing the Denomination====
 The server matches the features of submitted images against a library of stored features of different denomination and create a score for each comparison. It will then return the comparison with the highest score. The comparison is done using the scale-invariant feature transform algorithm (SIFT). This includes object recognition, robotic mapping and navigation, image stitching, 3D modeling, gesture recognition, video tracking, and match moving. Note that this takes care of possible problems such as viewing the banknote from an angle, or viewing a crumpled bill.
 
 ====Outputting Text to Audio Files====
