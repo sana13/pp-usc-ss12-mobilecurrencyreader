@@ -6,8 +6,8 @@
 
 ==Overview==
 
-This mobile currency reader project intends to make tasks such as recognizing the values of different dollar bills easier<br/>
-for visually impaired people.  
+This mobile currency reader project intends to make tasks such as recognizing the values of different dollar bills easier for visually impaired people. The application will first prompt users to capture an image of the holding bill, and the captured image will be transferred to the server. Then the server will process the image in order to recognize the value of the bill. Once the value of the bill is determined, the server will select the appropriate audio file to play to the users.
+<br/>
 
 ----
 
