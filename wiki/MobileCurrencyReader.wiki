@@ -1,18 +1,39 @@
 #summary One-sentence summary of this page.
 
 =Mobile Currency Reader=
+<br/>
 
 
 ==Overview==
 
-This mobile currency reader project intends to make tasks such as recognizing the values of different dollar bills easier for visually impaired people.
+This mobile currency reader project intends to make tasks such as recognizing the values of different dollar bills easier<br/>
+for visually impaired people.  
 
 ----
 
 ==Technical Overview==
 
-1. Acquire image from Android + write to buffer
-2. Phone client process + server process
-3. Output text to audio
-4. Classification of image data + rescale image
-5. Deploy java program to Android
+1. Acquire image from phone + write to buffer<br/>
+2. Phone client process + server process<br/>
+3. Classification of image data + rescale image<br/>
+4. Output text to audio<br/>
+5. Deploy java program to Android<br/>
+<br/>
+
+====Output text to audio====
+Once the server determines the denomination of the bill, the next thing to do is to convert the result into audible files.<br/>
+Currently, we create actual audio files for each denomination of bills. This means that once the server finishes recognizing<br/>
+the denomination, it will then select the corresponding audio file and play it to the user.
+
+
+----
+
+==Future Improvement==
+
+1. Currently, it is built primarily for Android users. In the future, it can be modified to adapt with different mobile platforms.
+
+----
+
+==Useful Links==
+
+<a href="http://developer.android.com/reference/packages.html">Android API</a>
