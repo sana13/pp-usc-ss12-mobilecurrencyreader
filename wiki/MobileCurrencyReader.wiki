@@ -1,11 +1,15 @@
 #summary One-sentence summary of this page.
 
-= Overview =
+=Mobile Currency Reader=
 
-This mobile currency reader project intends to make tasks such as recognizing the values of different dollar bills easier for the blind people.
+
+==Overview==
+
+This mobile currency reader project intends to make tasks such as recognizing the values of different dollar bills easier for visually impaired people.
 
 ----
-= Details =
+
+==Details==
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
