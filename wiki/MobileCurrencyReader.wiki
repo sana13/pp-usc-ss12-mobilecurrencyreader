@@ -12,7 +12,7 @@ for visually impaired people.
 ----
 
 ==Pre-requisites==
-1. Android SDK starter package
+1. Android SDK starter package<br/>
 2. Android Plugin for Eclipse - Android emulator for testing the code.
 
 ==Technical Overview==
