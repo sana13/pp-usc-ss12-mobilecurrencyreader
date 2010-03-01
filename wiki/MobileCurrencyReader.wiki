@@ -3,8 +3,7 @@
 
 
 ==Overview==
-<img>http://i204.photobucket.com/albums/bb76/tina_chen/ss12_mobile_img1.png</img>
-<img>http://i204.photobucket.com/albums/bb76/tina_chen/ss12_mobile_img2.png</img>
+
 <p>
 This mobile currency reader project intends to make tasks such as recognizing the values of different dollar bills easier for visually impaired people. The application will first prompt users to capture an image of the holding bill, and the captured image will be transferred to the server. Then the server will process the image in order to recognize the value of the bill. Once the value of the bill is determined, the server will select the appropriate audio file to play to the users.
 </p>
@@ -30,7 +29,8 @@ Below is a simple description of the application’s major functions:
   #5 The chosen audio file is sent back to the phone and played to the user.
 
 <img>http://i204.photobucket.com/albums/bb76/tina_chen/diagram-1.png</img>
-
+<img>http://i204.photobucket.com/albums/bb76/tina_chen/ss12_mobile_img1.png</img>
+<img>http://i204.photobucket.com/albums/bb76/tina_chen/ss12_mobile_img3.png</img>
 
 ====Acquiring Image from Phone and Writing to Buffer====
 The first step in the application is to acquire image of the bill. For our prototype,
