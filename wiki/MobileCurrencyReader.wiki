@@ -3,6 +3,8 @@
 
 
 ==Overview==
+<img>http://i204.photobucket.com/albums/bb76/tina_chen/ss12_mobile_img1.png</img>
+<img>http://i204.photobucket.com/albums/bb76/tina_chen/ss12_mobile_img2.png</img>
 <p>
 This mobile currency reader project intends to make tasks such as recognizing the values of different dollar bills easier for visually impaired people. The application will first prompt users to capture an image of the holding bill, and the captured image will be transferred to the server. Then the server will process the image in order to recognize the value of the bill. Once the value of the bill is determined, the server will select the appropriate audio file to play to the users.
 </p>
@@ -41,6 +43,8 @@ a byte array.
 
 ====Recognizing the Denomination====
 The server matches the features of submitted images against a library of stored features of different denomination and create a score for each comparison. It will then return the comparison with the highest score. The comparison is done using the scale-invariant feature transform algorithm (SIFT). We used only object recognition and robotic mapping and navigation from SIFT in this project. These basically make all the images we take in have the same orientation, scale and rotation. Note that this takes care of possible problems such as viewing the banknote from an angle, or viewing a crumpled bill.
+
+<img>http://i204.photobucket.com/albums/bb76/tina_chen/ImageRecognition-1.jpg</img>
 
 ====Outputting Text to Audio Files====
 Once the server determines the denomination of the bill, the next thing to do is to convert the result into audible files. Currently, we create actual audio files for each denomination of bills. This means that once the server finishes recognizing the denomination, it will then select the corresponding audio file and play it to the user.
