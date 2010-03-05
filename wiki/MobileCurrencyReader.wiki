@@ -28,9 +28,9 @@ Below is a simple description of the application’s major functions:
   #4 The result of image recognition is used to select corresponding audio file.
   #5 The chosen audio file is sent back to the phone and played to the user.
 
-<img>http://i204.photobucket.com/albums/bb76/tina_chen/diagram-1.png</img>
-<img>http://i204.photobucket.com/albums/bb76/tina_chen/ss12_mobile_img1.png</img>
-<img>http://i204.photobucket.com/albums/bb76/tina_chen/ss12_mobile_img3.png</img>
+<img src="http://i204.photobucket.com/albums/bb76/tina_chen/diagram-1.png" />
+<img src="http://i204.photobucket.com/albums/bb76/tina_chen/ss12_mobile_img1.png" />
+<img src="http://i204.photobucket.com/albums/bb76/tina_chen/ss12_mobile_img3.png" />
 
 ====Acquiring Image from Phone and Writing to Buffer====
 The first step in the application is to acquire image of the bill. For our prototype,
@@ -44,7 +44,7 @@ a byte array.
 ====Recognizing the Denomination====
 The server matches the features of submitted images against a library of stored features of different denomination and create a score for each comparison. It will then return the comparison with the highest score. The comparison is done using the scale-invariant feature transform algorithm (SIFT). We used only object recognition and robotic mapping and navigation from SIFT in this project. These basically make all the images we take in have the same orientation, scale and rotation. Note that this takes care of possible problems such as viewing the banknote from an angle, or viewing a crumpled bill.
 
-<img>http://i204.photobucket.com/albums/bb76/tina_chen/ImageRecognition-1.jpg</img>
+<img src="http://i204.photobucket.com/albums/bb76/tina_chen/ImageRecognition-1.jpg" />
 
 ====Outputting Text to Audio Files====
 Once the server determines the denomination of the bill, the next thing to do is to convert the result into audible files. Currently, we create actual audio files for each denomination of bills. This means that once the server finishes recognizing the denomination, it will then select the corresponding audio file and play it to the user.
